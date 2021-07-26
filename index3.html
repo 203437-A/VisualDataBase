@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/Css/bulma.css">
+    <link rel="stylesheet" href="./assets/Css/main3.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="card-content n">
+        <div class="content"  >
+            <div class="container2">
+                <div class="formulario">
+                    <div class="boton">
+                        <button class="button is-primary" onclick="addData();">Ingresar</button>
+                    </div>
+                    <div class="datos">
+                        <input id="nombre" class="input is-primary" type="text" placeholder="Nombre">
+                        <input id="ap_pat" class="input is-primary" type="text" placeholder="Apellido paterno">
+                        <input id="ap_mat" class="input is-primary" type="text" placeholder="Apellido materno">
+                        <input id="edad" class="input is-primary" type="text" placeholder="Edad">
+                    </div>
+                </div>
+                <div class="table-conta">
+                    <table id="table" class="table">
+                        <br>
+                        <div class="titulo"><span>----- DATOS -----</span></div>
+                        <br>
+                            <tr>
+                                <td>id</td><td>Nombre</td> <td>Apellido paterno</td> <td>Apellido materno</td> <td>Edad</td>
+                            </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <script src="./main.js" ></script>
+</footer>
+</html>

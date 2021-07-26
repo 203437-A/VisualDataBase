@@ -1,0 +1,84 @@
+body{
+    background: linear-gradient(90deg, rgba(27,54,67,1) 20%, rgba(55,111,143,1) 50%, rgba(35,67,84,1) 80%);
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.card-content{
+    background: white;
+    box-shadow: 0px -3px 30px 8px rgba(0,0,0,0.61);
+    border-radius: 20px;
+    max-width: 700px;
+    height: 500vh;
+    transform: translateX(40px);
+}
+
+
+.container2{
+    width: 1090px;
+    height: 475px;
+    top: 40px;
+} 
+
+.formulario{
+    height: 35%;
+    width: 650px;
+    background-color: #87bfc2;
+    border-radius: 20px;
+    box-shadow: 0px -3px 30px 8px rgba(0,0,0,0.20);
+    border: 1px solid #87bfc2;
+}
+
+.button{
+    top: 50px;
+    height: 50px;
+    width: 130px;
+    left: 15px;
+}
+
+.datos{
+    width: 30%;
+}
+#nombre{
+    left: 100%;
+    top:  -20px;
+}
+#ap_pat{
+    left: 100%;
+}
+#ap_mat{
+    left: 220%;
+    top:  -40px;
+}
+
+#edad{
+    left: 220%;
+    top:  -140px;
+}
+
+.table-conta{
+    width: 90%;
+    margin:10px auto;
+   
+}
+
+.table{
+    max-width: 55%;
+}
+
+.titulo{
+    width: 55%;
+    text-align: center;
+}
+
+span{
+    font-size: 20px;
+}
+
+
+.table-conta .table tr{
+    border: 1px solid #87bfc2;
+}
+.table-conta .table tr td{
+    border: 2px solid #87bfc2;
+    text-align: center;
+}
